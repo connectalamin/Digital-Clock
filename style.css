@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     background: #000;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'IBM Plex Sans', sans-serif;
+
+}
+.glow {
+     font-size: 60px;
+     color: rgb(13, 87, 59);
+     font-weight: bold;
+     animation: glow 1s ease-in-out infinite alternate;
+     -moz-animation: glow 1s ease-in-out infinite alternate;
+     -webkit-animation: glow 1s ease-in-out infinite alternate;
+}
+.gl{
+      font-size: 60px;
+      align-content: center;
+      color: rgb(13, 87, 71);
+      font-weight: bold;
+      animation: glow 1s ease-in-out infinite alternate;
+}
